@@ -13,7 +13,7 @@ public class App extends Application {
         try {
             System.out.println("Empezando");
             BorderPane root = FXMLLoader.load(getClass().getResource("/Ventana1.fxml"));
-            Scene scene = new Scene(root,400,400);
+            Scene scene = new Scene(root,800,400);
             primaryStage.setScene(scene);
             primaryStage.show();
         } catch(Exception e) {
